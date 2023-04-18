@@ -4,26 +4,38 @@
 
         </title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+
+        <style>
+           .row{
+                width:720px;
+                margin: 10px auto 10px auto ;
+           } 
+           .image-container {
+                display: table-cell;
+                vertical-align: middle;
+                padding:20px;
+           }
+        </style>
     </head>
 
-    <body style="background-color: rgb(122, 111, 172);">
+    <body style="background-color: rgb(48, 48, 48);">
         
         <div class="row">
-            <img id="sleep" src="img/Eyecon.png" width="200" height="200" onmouseover="this.src='img/Eyecon Hl.png';" onmouseout="this.src='img/Eyecon.png';"/>
-            <img id="brain" src="img/Brain Icon.png" width="200" height="200" onmouseover="this.src='img/Brain Icon Hl.png';" onmouseout="this.src='img/Brain Icon.png';"/>
-            <img id="dreamcatcher" src="img/Dreamcatcher.png" width="200" height="200" onmouseover="this.src='img/Dreamcatcher Hl.png';" onmouseout="this.src='img/Dreamcatcher.png';"/>
+            <div class="image-container"><img id="sleep" src="img/Eyecon.png" width="200" height="200" onmouseover="this.src='img/Eyecon HL.png';" onmouseout="this.src='img/Eyecon.png';"/></div>
+            <div class="image-container"><img id="brain" src="img/Brain Icon.png" width="200" height="200" onmouseover="this.src='img/Brain Icon Hl.png';" onmouseout="this.src='img/Brain Icon.png';"/></div>
+            <div class="image-container"><img id="dreamcatcher" src="img/Dreamcatcher.png" width="200" height="200" onmouseover="this.src='img/Dreamcatcher Hl.png';" onmouseout="this.src='img/Dreamcatcher.png';"/></div>
         </div>
 
         <div class="row">
-            <img id="natural" src="img/Nature.png" width="200" height="200" onmouseover="this.src='img/Nature Hl.png';" onmouseout="this.src='img/Nature.png';"/>
-            <img id="wings" src="img/Wings.png" width="200" height="200" onmouseover="this.src='img/Wings Hl.png';" onmouseout="this.src='img/Wings.png';"/>
-            <img id="physical" src="img/Phys.png" width="200" height="200" onmouseover="this.src='img/Phys Hl.png';" onmouseout="this.src='img/Phys.png';"/>
+            <div class="image-container"><img id="natural" src="img/Nature.png" width="200" height="200" onmouseover="this.src='img/Nature Hl.png';" onmouseout="this.src='img/Nature.png';"/></div>
+            <div class="image-container"><img id="wings" src="img/Wings.png" width="200" height="200" onmouseover="this.src='img/Wings Hl.png';" onmouseout="this.src='img/Wings.png';"/></div>
+            <div class="image-container"><img id="physical" src="img/Phys.png" width="200" height="200" onmouseover="this.src='img/Phys Hl.png';" onmouseout="this.src='img/Phys.png';"/></div>
         </div>
 
         <div class="row">
-            <img id="play" src="img/Head.png" width="200" height="200" onmouseover="this.src='img/Head Hl.png';" onmouseout="this.src='img/Head.png';"/>
-            <img id="insom" src="img/Insom.png" width="200" height="200" onmouseover="this.src='img/Insom Hl.png';" onmouseout="this.src='img/Insom.png';"/>
-            <img id="moon" src="img/Moon.png" width="200" height="200" onmouseover="this.src='img/Moon Hl.png';" onmouseout="this.src='img/Moon.png';"/>
+            <div class="image-container"><img id="play" src="img/Head.png" width="200" height="200" onmouseover="this.src='img/Head Hl.png';" onmouseout="this.src='img/Head.png';"/></div>
+            <div class="image-container"><img id="insom" src="img/Insom.png" width="200" height="200" onmouseover="this.src='img/Insom Hl.png';" onmouseout="this.src='img/Insom.png';"/></div>
+            <div class="image-container"><img id="moon" src="img/Moon.png" width="200" height="200" onmouseover="this.src='img/Moon Hl.png';" onmouseout="this.src='img/Moon.png';"/></div>
         </div>
         <script>
             var sound1 = new buzz.sound("sound/breathing.mp3");
